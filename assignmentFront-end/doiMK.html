@@ -1,0 +1,71 @@
+
+          <section class="row">
+              <div class="col-6 mx-auto my-0" >
+                <div class="card mt-4">
+                  <div class="card-header" style="text-align: center;">
+                      <h6> Đổi mật khẩu</h6>
+                  </div>
+                  <div class="card-body mx-5 mt-3">
+                      <form action="">
+                          <div class="row">
+                              <div class="form-group col-12">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                  </div>
+                                  <!-- <input type="text" class="form-control" ng-model="username" aria-label="Amount (to the nearest dollar)"
+                                    placeholder="Tên tài khoản"> -->
+                                    <div  class="form-control alert-info">{{tendangnhap}}</div>
+                                </div>
+                                
+                              </div>
+                          </div>
+                          <div class="row">
+                            <div class="form-group col-12">
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                </div>
+                                <input type="text" class="form-control" ng-model="password" aria-label="Amount (to the nearest dollar)"
+                                  placeholder="Mật khẩu cũ">
+                              </div>
+                                <small class="form-text text-muted">Mật khẩu cũ không được để trống</small>
+                            </div>
+                            <div class="form-group col-12">
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                </div>
+                                <input  type="text" class="form-control" ng-model="newpassword1" aria-label="Amount (to the nearest dollar)"
+                                  placeholder="Mật khẩu mới">
+                              </div>
+                                <small class="form-text text-muted">Mật khẩu mới không được để trống</small>
+                            </div>
+                        </div>
+                          <div class="row">
+                            <div class="form-group col-12">
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                </div>
+                                <input type="text" class="form-control" ng-model="newpassword" aria-label="Amount (to the nearest dollar)"
+                                  placeholder="Xác nhận mật khẩu">
+                              </div>
+                                <small class="form-text text-muted">Xác nhận mật khẩu không được để trống</small>
+                            </div>
+                          </div>
+                          <div class="row text-center">
+                              <div class="form-group col ">
+                                  <button class="btn btn-default" ng-click="doimk()">
+                                    <i class="fas fa-check-circle"></i>  Xác nhận
+                                  </button>
+                              </div>
+                          </div>
+                      </form>
+  
+                  </div>
+              </div>
+              </div>
+          </section>
+
+ 

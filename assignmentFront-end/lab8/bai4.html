@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="lib/angular-1.8.2/angular.min.js"></script>
+    <script src="lib/angular-1.8.2/angular-route.min.js"></script>
+    <script src="js/bai2.js"></script>
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css" />
+    <style>
+      .shopping-mall {
+        bottom: 20px;
+        font-variant: small-caps;
+      }
+      .shopping-mall > h1 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 50px;
+        color: white;
+        letter-spacing: 0.3px;
+        text-shadow: 0 0 2px black;
+        padding-bottom: 0px;
+        border-bottom: 1px dotted gray;
+        margin: 0px;
+      }
+      .shopping-mall > h5 {
+        margin-top: 5px;
+        letter-spacing: 0.5px;
+      }
+      .img-iphone {
+        width: 200px;
+        height: 200px;
+      }
+      a:visited,a:hover,a:active{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body ng-app="myApp">
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="container">
+      <div ng-include="'view/tempBai4/header.html'"></div>
+      <div ng-include="'view/tempBai4/menu.html'"></div>
+      
+
+      <section class="row">
+        <div class="col-9" ng-include="'view/tempBai4/article.html'"></div>
+        <aside class="col-3">
+          <div ng-include="'view/tempBai4/cart.html'"></div>
+            <div class="card mt-4 ">
+              <div ng-include="'view/tempBai4/category.html'"></div>
+              <div ng-include="'view/tempBai4/subblier.html'"></div>
+              <div ng-include="'view/tempBai4/special.html'"></div>
+              
+          </div>
+          
+        </aside>
+      </section>
+      <div ng-include="'view/tempBai4/footer.html'"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "user": [
+    {
+      "username": "leeminh",
+      "password": "111",
+      "fullname": "le van minh",
+      "email": "le van minh",
+      "gender": "male",
+      "date": "08/10/1998",
+      "id": 2
+    },
+    {
+      "username": "leanh",
+      "password": "123",
+      "fullname": "le duc anh",
+      "email": "ducanh@gamil.com",
+      "gender": "",
+      "id": 3
+    },
+    {
+      "username": "leeminh23",
+      "password": "123",
+      "fullname": "le van minh",
+      "email": "levanminh@gamil,com",
+      "gender": "",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "assignmentfront-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "json: server": "json-server --watch Student.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
